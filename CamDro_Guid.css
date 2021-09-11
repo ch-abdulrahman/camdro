@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bg5-min.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/*************LEFT*************/
+
+.left {
+    /* border: 2px solid #00de93; */
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 3px;
+}
+
+#logo {
+    width: 200px;
+    margin: 8px -4px 4px 0px;
+}
+
+/*************MID*************/
+
+.mid {
+    /* border: 2px solid #00de93; */
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+.mid ul {
+    overflow: auto;
+}
+
+.mid li {
+    float: left;
+    list-style: none;
+    margin: 3px 13px;
+}
+
+.mid ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.mid a:hover {
+    color: #00de93;
+    text-decoration: underline;
+}
+
+/*************RIGHT*************/
+
+.right {
+    /* border: 2px solid #00de93; */
+    display: inline-block;
+    position: absolute;
+    top: 17px;
+    right: 6px;
+}
+
+.right input {
+    width: 150px;
+    border: 3px solid #00de93;
+    margin: 2px;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+/*************BUTTON*************/
+
+.btn {
+    background-color: #00de93;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    padding: 3px;
+}
+
+.right .btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/*************FORM*************/
+
+.form_container {
+background-color: #00de94c9;
+border: 2px solid rgb(48, 45, 45);
+border-radius: 4px;
+box-sizing: border-box;
+position: absolute;
+top: 90px;
+left: 50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding: 35px;
+width: 400px;
+}
+
+/*************For Heading*************/
+
+#form_h1 {
+width: 73%;
+margin: -20px auto 15px auto;
+/* padding-right: 36px; */
+text-align: center;
+box-sizing: border-box;
+/* background-color: white; */
+color: black;
+padding: 12px;
+border-radius: 30px
+}
+
+/*************Form Items*************/
+
+.form-items,
+#agree,
+#form-btn {
+clear: both;
+width: 100%;
+margin: 12px auto;
+overflow: auto;
+}
+
+.form-items input {
+background-color: #d6dee2;
+border: 2px solid #382e2e;
+box-sizing: border-box;
+border-radius: 4px;
+font-size: 15px;
+display: block;
+margin: auto;
+width: 100%;
+padding: 5px;
+}
+
+.form-items label {
+display: block;
+box-sizing: border-box;
+}
+
+/*************Form Name*************/
+
+#fname {
+/* display: inline-block; */
+/* box-sizing: border-box; */
+width: 48%;
+float: left;
+margin-right: 4px;
+
+}
+
+#lname {
+/* display: inline-block; */
+/* box-sizing: border-box; */
+width: 48%;
+float: right;
+margin-left: 4px;
+}
+
+/*************Form Buttons*************/
+
+#form-btn {
+width: 65%;
+margin: 30px auto 0px auto;
+}
+
+#form-btn .bttn {
+color: black;
+background-color: white;
+border: 2px solid #382e2e;
+border-radius: 10px;
+font-family: 'Rubik', sans-serif;
+font-size: 15px;
+display: inline-block;
+width: 47%;
+padding: 5px;
+margin: auto 2px;
+}
+
+#form-btn .bttn:hover {
+background-color: #00de93;
+cursor: pointer;
+}
